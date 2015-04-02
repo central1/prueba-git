@@ -1,0 +1,113 @@
+@font-face {
+font-family: "Bodoni MT";
+src: url( Bodoni MT.ttf );
+}
+p {
+font-family: "Bodoni MT";
+
+
+font-family: "Myriad Pro";
+src: url( Myriad Pro.oft );
+}
+p {
+font-family: "Myriad Pro";
+}
+
+.titulo {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: #6F4102;
+	text-decoration: none;
+}
+.pleca {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #C45E02;
+}
+.texto {
+	font-size: 17px;
+	color: #333;
+	text-decoration: none;
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+}
+.pie {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 10px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.bufet{
+	font-family: "Bodoni MT";
+	font-size: 14px;
+	color: #e8bd61;
+	text-decoration: none;
+}
+.plecavertical {
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: #653201;
+}
+.piefondo {
+	background-image: url(imagenes/pie.gif);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.plecaverticaldos {
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #e8bd61;
+}
+
+
+	.borde {
+	border: 1px solid #F0B842;
+}
+.subtb {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+}
+.abogados {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #5F3307;
+	text-decoration: none;
+}
+.textocafe {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+	color: #6F4102;
+	text-decoration: none;
+}
+
+.bufet2{
+	font-family: "Bodoni MT";
+	font-size: 24px;
+	color: #653201;
+	text-decoration: none;
+
+}
+.bienvenidos {
+	font-family: "Myriad Pro";
+	font-size: 30px;
+	color: #652E05;
+	text-decoration: none;
+}
+.saludo {
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	color: #999;
+	text-decoration: none;
+}
+
+
+.titlebook{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+	color: #e8bd61;
+	text-decoration: none;
+}
+S

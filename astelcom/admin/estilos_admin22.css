@@ -1,0 +1,291 @@
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+#head{
+	width:1000px;
+	height:105px;
+	position:relative;
+	margin:0 auto;
+	align:right;
+}	
+#logo{
+	position:absolute;
+	left:5px;
+	top:25px;
+	margin:0;
+}
+#textadmin{
+	position:absolute;
+	right:2px;
+	top:20px;
+	text-align:right;
+	width: 631px;
+}
+#textadmin_general{
+	position:absolute;
+	right:1px;
+	text-align:right;
+	width: 631px;
+	top: 20px;
+}
+#logout{
+	position:absolute;
+	right:0px;
+	top:59px;
+	text-align:right;
+	width: 115px;
+}
+#content{
+	width:1000px;
+	margin:0 auto;
+	padding-top: 30px;
+}
+#boton{
+	width:58px;
+	height:16px;
+	position:absolute;
+	right:447px;
+	top:50%;
+	left: 480px;
+}
+#contenido{
+	width:1000px;
+	margin:0 auto;
+	padding-top: 25px;
+	height: 300px;
+}
+#texto_home{
+	position:absolute;
+	right:309px;
+	text-align:center;
+	width: 520px;
+}
+#nav {
+	height:auto !important;
+	width:auto;
+ 	margin: 0;
+	padding:0;
+}
+#nav li {
+	float: left;
+    top:140px;
+	list-style: none;
+ 	position: relative;
+}
+/* Botonera menu interiores*/
+#nav2 {
+	height:auto !important;
+	width:auto;
+ 	margin: 0;
+	padding:0;
+	
+}
+#nav2 li {
+	float: left;
+    top:176px;
+	list-style: none;
+ 	position: relative;
+	left:115px;	
+}
+/* Botonera menu interiores*/
+
+#footer{
+	width:1000px;
+	height:20px;
+	position:relative;
+	margin-left:auto;
+}
+#footer_index{
+	width:1000px;
+	height:20px;
+	position:relative;
+	margin-left:auto;
+	top:150px;
+}
+#textpie1{
+	position:absolute;
+	left:1px;
+	top:0;
+	text-align:left;
+}
+#textpie2{
+	position:absolute;
+	right:1px;
+	top:0;
+	text-align:right;
+}
+.titulo-head {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	color:#821631;
+	font-weight:700;
+	text-decoration: none;
+}
+.titulo-head2 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	color: #000;
+	font-weight:400;
+	text-decoration: none;
+}
+.pleca-interiores{
+	border-top:1px #dedede solid;
+}
+.pie{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color: #821631;
+	font-weight:400;
+	text-decoration: none;
+}
+.pie-naranja{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color:#821631;
+	font-weight:400;
+	text-decoration: none;
+}	
+.admin{
+	background-image:url(imagenes/admin.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.textoboldgris {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight:700;
+	color: #333;
+}
+.textogris {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight:400;
+	color: #333;
+}
+.texto {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight:400;
+	color: #333;
+	text-decoration:none;
+}
+.textoboldnaranja {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight:700;
+	color:#821631;
+}
+.botones {
+	color:#333 !important;
+	font-family:'Open Sans', sans-serif;
+	font-size:14px !important;
+	text-decoration:none !important;
+	font-weight: 500;
+	text-decoration: none;
+	}
+	.botones a{
+	color:#333 !important;
+	text-decoration:none !important;
+	}
+	.botones a:hover{
+	color:#821631!important;
+	font-family:'Open Sans', sans-serif;
+	font-size:14px !important;
+	font-weight: 500;
+	text-decoration: none;
+	}
+
+.boton-formulario {	
+ padding: 5px 5px; /* Tamaño del Boton */
+ -webkit-border-radius: 8px 8px;
+ border-radius: 6px 6px; /* bordes del Boton */
+ border: solid 1px rgb(160, 160, 160);
+ background:#821631; /* Aqui se cambia el color del fondo */
+ color: #FFFCC7;
+ text-decoration: none;
+ display: inline-block;
+ text-align: center;
+ cursor: pointer;
+ text-shadow: 0px 0px 0px rgba(255,255,255,1);/* difuminacion */
+ line-height: 1;
+ margin: 0 auto;
+ font-family: 'Open Sans', sans-serif;
+}
+.boton-formulario:hover {	
+ padding: 6px 6px; /* Tamaño del Boton */
+ -webkit-border-radius: 8px 8px;
+ background: #FFF; /* Aqui se cambia el color del over */
+ color: #821631;
+ display: inline-block;/* en HTML5 esto nos ayuda a mantener el boton en linea*/
+ text-align: center;
+ cursor: pointer;
+ font-family: 'Open Sans', sans-serif;
+}
+.boton-formulario2 {	
+ padding: 5px 5px; /* Tamaño del Boton */
+ border-radius: 6px 6px; /* bordes del Boton (redondo o cuadrado) */
+ border: solid 1px rgb(160, 160, 160);
+ background: #777777; /* Aqui se cambia el color del fondo */
+ color: #FFF; /* Este es el color de la letra */
+ text-decoration: none;
+ display: inline-block;/* en HTML5 esto nos ayuda a mantener el boton en linea*/
+ text-align: center;
+ cursor: pointer;
+ text-shadow: 0px 0px 0px rgba(255,255,255,1);/* difuminacion */
+ -webkit-text-shadow: 0px 0px 0px rgba(255,255,255,1);
+ line-height: 1;
+ margin: 0 auto;
+ font-family: 'Open Sans', sans-serif;
+}
+.boton-formulario2:hover {	
+ padding: 6px 6px; /* Tamaño del Boton */
+ background: #545452; /* Aqui se cambia el color del fondo */
+ color: #FFF; /* Este es el color de la letra */
+ display: inline-block;
+ font-family: 'Open Sans', sans-serif;
+ /*By: Carlos Leyva Todos los Derechos Reservados Copyright 2014 xDDDDDDD*/
+}
+/*ESTILOS NUEVOS PARA LOS INTERIORES EN DIIVS*/
+#caja p{
+	display:inline-block;
+	vertical-align:middle;
+	font-size: 16px;
+	width:200px;
+}
+#titulo_secciones {
+	position:relative;
+	width:500px;
+	vertical-align:middle;
+}
+.triangulo {
+	vertical-align:middle;
+}	
+#titulos_actualizar span{
+	padding:10px 8px;
+	height:10px;
+	vertical-align:middle;
+}
+#caja_separador p{
+	display:inline-block;
+	vertical-align:middle;
+}
+.pleca_separador{
+	position:relative;
+	left:10%;
+}
+#caja_end p{
+	display:inline-block;
+	vertical-align:middle;
+}
+/*ESTILOS NUEVOS PARA LOS INTERIORES EN DIIVS*/
+/*ESTILOS NUEVOS PARA LOS ARCHIVOS INT ADMIN EN DIIVS*/
+#caja_archivos p{
+	display:inline-block;
+	vertical-align:middle;
+	height:10px;
+}
+#caja3 span{
+	padding:10px 0;
+	height:30px;
+}
